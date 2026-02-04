@@ -30,11 +30,15 @@ udp2dada_vdif_blk2.c
 接收rfsoc 发送过来的基带数据流写入dada缓冲区
 
 
-###实施监控
+###实时监控
+
+基带实时频谱监控
 
 ![频谱](monitor.png)
 
 ###观测测试
+
+脉冲星及谱线测试
 
 ![脉冲星](1420M_pulsar.png)
 
@@ -43,4 +47,5 @@ udp2dada_vdif_blk2.c
 
 ###开发板实物图
 
+实物图
 ![rfsoc](tq47dr.png)
