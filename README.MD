@@ -64,3 +64,6 @@ udp2dada_vdif_blk2.c
 
 实物图
 ![rfsoc](tq47dr.png)
+
+### dada to vlbi vdif file
+https://github.com/xao-lijian/dada2vdif
