@@ -51,8 +51,10 @@ udp2dada_vdif_blk2.c
 
 ![脉冲星](1420M_pulsar.png)
 
-记录的脉冲星dada基带数据
+记录的脉冲星dada基带数据，dspr可直接处理
+
 ![脉冲星](pulsar1420.png)
+
 记录的h2co及nh3 on_off 基带 dada基带数据，私有云，为控制流量，需要可联系
 
 ![谱线](h2co_nh3.png)
