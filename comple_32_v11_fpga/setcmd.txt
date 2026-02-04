@@ -1,0 +1,34 @@
+0
+copy lmk04832_ref10_rfdc256_pl32.txt
+
+scp lmk04832_ref10_rfdc256_pl32.txt   casper@fpgaip:~
+
+ssh casper@fpgaip
+
+sudo ./prg_rfpll_pscom1 -lmk lmk04832_ref10_rfdc256_pl32.txt
+
+
+1
+ipython
+
+
+run -i init_deng9.py
+
+change 10.17.16.11 MAC in .yaml file
+
+
+run -i plot_spec_adc1_bw32.py
+
+2
+
+telnet
+
+open 192.168.161.194 7147
+
+set mixer cf =100  (-2048--2048M)
+
+?rfdc-update-nco 0 0 adc -100   #as you need
+?rfdc-update-nco 0 1 adc -100   #as you need
+get mixer
+
+?rfdc-get-mixer-settings 0 0 adc
