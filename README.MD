@@ -22,7 +22,7 @@ get mixer
 ?rfdc-get-mixer-settings 0 0 adc
 
 
-## UDP2DADA
+### UDP2DADA
 
 udp2dada_vdif_blk2.c
 
@@ -30,17 +30,17 @@ udp2dada_vdif_blk2.c
 接收rfsoc 发送过来的基带数据流写入dada缓冲区
 
 
-##实施监控
+###实施监控
 
 ![频谱](monitor.png)
 
-##观测测试
+###观测测试
 
 ![脉冲星](1420M_pulsar.png)
 
 ![谱线](h2co_nh3.png)
 
 
-##开发板实物图
+###开发板实物图
 
 ![rfsoc](tq47dr.png)
