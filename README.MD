@@ -1,4 +1,4 @@
-## dada缓冲区创建
+### dada缓冲区创建
 
 bash dada.sh
 
@@ -7,6 +7,9 @@ bash dada.sh
 ## FPGA程序
 
 运行于TQ47DR开发板，采样率4096M，采用RFDC内部混频nco（混频值可设置），输出32M 带宽2极化VDIF 格式基带数据。
+
+### 时钟文件
+lmk04832_ref10_rfdc256_pl32.txt
 
 ### RFDC 的NCO设置
 telnet 192.168.161.194 7147
