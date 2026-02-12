@@ -322,6 +322,12 @@ int main(int argc,char**argv)
       for(int g=0; g<GROUPS_PER_FRAME; g++)
 	  {
         int16_t a0=p[4*g+0], a1=p[4*g+1], a2=p[4*g+2], a3=p[4*g+3];
+
+		 //int16_t sign = (g & 1) ? -1 : 1;
+	     //out[0*BLOCK_LEN + g] = sign * a3; // X.re
+         //out[1*BLOCK_LEN + g] = sign * a2; // X.im
+         //out[2*BLOCK_LEN + g] = sign * a1; // Y.re
+         //out[3*BLOCK_LEN + g] = sign * a0; // Y.im
         out[0*BLOCK_LEN + g] = a3; // X.re
         out[1*BLOCK_LEN + g] = a2; // X.im
         out[2*BLOCK_LEN + g] = a1; // Y.re
