@@ -67,3 +67,12 @@ udp2dada_vdif_blk2.c
 
 ### dada to vlbi vdif file
 https://github.com/xao-lijian/dada2vdif
+
+
+### for test
+
+echo start | nc -N 127.0.0.1 22000
+
+echo UTC_START=2026-02-12-06:42:02 | nc -N 127.0.0.1 22000
+
+nc -l 22000
